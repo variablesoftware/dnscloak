@@ -17,13 +17,14 @@ Build Instructions for Master
 1. Install the latest [Xcode developer tools](https://developer.apple.com/xcode/downloads/) from Apple.
 
 1a. Install python2
-    ```shell
-    brew install pyenv
-    # tune compilation
-    env PYTHON_CONFIGURE_OPTS='--enable-optimizations --with-lto' PYTHON_CFLAGS='-march=native -mtune=native' pyenv install --verbose 3.13.1
-    env PYTHON_CONFIGURE_OPTS='--enable-optimizations --with-lto' PYTHON_CFLAGS='-march=native -mtune=native' pyenv install --verbose 2.7.18
-    pyenv global 3.13.1 2.7.18
-    ```
+  ```shell
+  brew install pyenv
+  # tune compilation
+  env PYTHON_CONFIGURE_OPTS='--enable-optimizations --with-lto' PYTHON_CFLAGS='-march=native -mtune=native' pyenv install --verbose 3.13.1
+  env PYTHON_CONFIGURE_OPTS='--enable-optimizations --with-lto' PYTHON_CFLAGS='-march=native -mtune=native' pyenv install --verbose 2.7.18
+  pyenv global 3.13.1 2.7.18
+  ```
+
 2. Install [Node.js & npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
     ```shell
     brew install node@20
