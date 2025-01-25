@@ -12,6 +12,7 @@
     "prepare:prod": "cordova prepare ios --release",
     "framework": "./build/build-ios-framework.sh",
     "framework:force": "./build/build-ios-framework.sh --force",
+    "framework:verbose": "./build/build-ios-framework.sh --verbose",
     "build:dev": "npm run bundle:dev && npm run prepare:dev && npm run framework",
     "build:prod": "npm run bundle:prod && npm run prepare:prod && npm run framework",
     "build": "npm run build:dev"
