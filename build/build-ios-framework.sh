@@ -87,7 +87,7 @@ go get golang.org/x/mobile/cmd/gomobile
 gomobile init
 
 # fetch vanilla dnscrypt-proxy
-go get -d 'github.com/jedisct1/dnscrypt-proxy'
+go get -d 'github.com/dnscrypt/dnscrypt-proxy'
 
 # add some mobile-specific flavor
 cd $PKGPATH
